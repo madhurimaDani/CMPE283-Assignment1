@@ -27,7 +27,7 @@
   
   <img width="1439" alt="-1" src="https://user-images.githubusercontent.com/37496654/164831597-992488d5-5123-4435-87b8-8eb15cd479cb.png">
   
-        •Validated output of top command, df -h command and /proc/vmx
+        •Validated output of top command, df -h command and /proc/vmx to verify nested virtualization is enabled
   
   <img width="473" alt="-1 df command" src="https://user-images.githubusercontent.com/37496654/164836337-72133990-f121-4086-ba56-880deda27a11.png">
 
@@ -44,7 +44,7 @@
 	
 <img width="820" alt="2" src="https://user-images.githubusercontent.com/37496654/164836785-f436ede3-06b1-411c-8e4d-225f14abbed0.png">
 	
-	•Modified cmpe283-1.c file to fetch required details
+	•Modified cmpe283-1.c file to read and display VMX configuration for process based, secondary process based, entry and exit MSRs
 <img width="1143" alt="4" src="https://user-images.githubusercontent.com/37496654/164836910-0213effe-ba6a-4762-b532-a81d7b18ae3a.png">
 	
 	•Executed make command
@@ -53,11 +53,12 @@
 	•It failed, had to add below line into .c file
 <img width="864" alt="3" src="https://user-images.githubusercontent.com/37496654/164837175-beb00107-b150-49f0-99d7-df842a2ca024.png">
 
-	•Executed dmesg command
+	•Executed dmesg command to display all the logs and verify that the VMX capabilities for MSRs are displayed.
+	
 <img width="1168" alt="6" src="https://user-images.githubusercontent.com/37496654/164837426-60dc3e9b-4aad-48e3-8b56-68e92a14380b.png">
 <img width="816" alt="7" src="https://user-images.githubusercontent.com/37496654/164837508-4a14dcc3-4be2-4282-814e-f4f9b95db089.png">
 
-	•Pushed final files into git
+	•Committed and pushed final files into git repository
   
 
   
