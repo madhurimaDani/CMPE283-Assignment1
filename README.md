@@ -40,7 +40,7 @@
 	
 <img width="1000" alt="1" src="https://user-images.githubusercontent.com/37496654/164836650-c99d3e1f-6329-4cf7-8fa2-f0c0403d83d4.png">
 
-	•From VM, executed git clone command and download the files on VM
+	•From VM, executed git clone command and download the files on VM. Forked and cloned linux repository
 	
 <img width="820" alt="2" src="https://user-images.githubusercontent.com/37496654/164836785-f436ede3-06b1-411c-8e4d-225f14abbed0.png">
 	
